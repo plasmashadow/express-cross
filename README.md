@@ -19,7 +19,7 @@ In order to use express-cross into your express app.
    var app = express();
    var cors = require('express-cross');
 
-   app.use(cors(true, ["localhost", "google.com"], ["foo": "bar"]));
+   app.use(cors(true, ["localhost", "google.com"], ["foo","bar"]));
 
    app.get('/', function (req, res) {
      res.send('Hello World!');
